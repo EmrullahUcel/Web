@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background: url('/src/components/images/bg-pic.jpg'); */
+    background-size: cover;
+    width: 100vh;
+    height: 100vh;
+}
+#root{
+    width: 100vh;
+    height: 100vh;
+}
+
+
+.width{
+    width: 100vh;
+}
+h1{
+    color: #ff5925;
+}
