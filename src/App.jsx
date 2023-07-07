@@ -1,4 +1,3 @@
-import Footer from "./components/Footer"
 import Header from "./components/Header"
 import MainSection from "./components/MainSection"
 import { Route, Routes } from 'react-router-dom'
@@ -19,7 +18,6 @@ const App = () => {
           <Route path="/Contact" element={<Contact />} />
         </Routes>
       </BackPage>
-      <Footer />
     </div>
 
   )
