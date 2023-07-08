@@ -8,8 +8,9 @@ import { FaEnvelope } from 'react-icons/fa'
 const Contact = () => {
   return (
 
-    <div className="min-[850px]:w-full mt-20 flex justify-between">
-      <p className='w-96 mt-[-50px]'>
+    <div className='pc:w-11/12 mt-20 pc:flex pc:justify-between phone:w-12 phone:block'>
+  
+      <p className='pc:w-96 mt-[-50px] phone:w-52 '>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit.
         Illo maiores iusto quasi fugiat magnam possimus necessitatibus,
         aliquid accusamus nesciunt omnis dolorum,
@@ -17,12 +18,12 @@ const Contact = () => {
         ! Eveniet blanditiis harum explicabo quae ipsum nemo, quia,
         libero iure illo inventore temporibus asperiores vitae itaque magni dicta!
       </p>
-      <div className='flex gap-4'>
-        <a href=""><FaInstagram /></a>
-        <a href=""><FaTwitter /></a>
-        <a href=""><FaFacebook /></a>
-        <a href=""><FaGithub /></a>
-        <a href=""><FaEnvelope /></a>
+      <div className='pc:block phone:flex phone:mt-6 phone:gap-7'>
+        <a href=""><FaInstagram className='pc:mb-4' /></a>
+        <a href=""><FaTwitter   className='pc:mb-4' /></a>
+        <a href=""><FaFacebook  className='pc:mb-4' /></a>
+        <a href=""><FaGithub    className='pc:mb-4' /> </a>
+        <a href=""><FaEnvelope  className='pc:mb-4' /></a>
       </div>
     </div>
   )

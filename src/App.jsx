@@ -9,7 +9,9 @@ import BackPage from './components/BackPage'
 const App = () => {
   return (
 
-    <div className='w-full h-full flex flex-col items-center justify-center'>
+    <div className='pc:w-full pc:h-full pc:flex pc:flex-col pc:items-center pc:justify-center
+    phone:flex justify-center phone:items-center
+    '>
       <BackPage>
         <Header />
         <Routes>
