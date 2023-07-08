@@ -8,13 +8,10 @@
     box-sizing: border-box;
 }
 
-body {
-    background: url('/src/components/images/working_img.jpg');
-    background-size: cover;
-    width: 100vh;
-    height: 100vh;
+ body {
+    font-family: 'Caprasimo', cursive;
 }
-
+/*
 #root {
     width: 100vh;
     height: 100vh;
@@ -27,5 +24,5 @@ body {
 
 h1 {
     color: #ff5925;
-}
+} */
 

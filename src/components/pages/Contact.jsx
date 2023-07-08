@@ -8,8 +8,8 @@ import { FaEnvelope } from 'react-icons/fa'
 const Contact = () => {
   return (
 
-    <div className="w-full mt-20 flex justify-between">
-      <p className='w-96'>
+    <div className="min-[850px]:w-full mt-20 flex justify-between">
+      <p className='w-96 mt-[-50px]'>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit.
         Illo maiores iusto quasi fugiat magnam possimus necessitatibus,
         aliquid accusamus nesciunt omnis dolorum,
@@ -24,7 +24,6 @@ const Contact = () => {
         <a href=""><FaGithub /></a>
         <a href=""><FaEnvelope /></a>
       </div>
-
     </div>
   )
 }
