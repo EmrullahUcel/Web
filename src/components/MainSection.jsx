@@ -15,7 +15,7 @@ const MainSection = () => {
         </p>
       </div>
       <div className="border-2 border-fuchsia-950 pc:w-72 pc:h-60 flex text-center items-center justify-center
-      phone:h-44">
+      phone:h-40">
         Burada bir resim var
       </div>
     </div>
