@@ -3,12 +3,30 @@
 @tailwind utilities;
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
- body {
-    font-family: 'Caprasimo', cursive;
+body {
+  font-family: "Nunito", sans-serif;
 }
 
+.moon {
+  transition: all 2s;
+}
+
+#dark:not(:checked) + .moon + .sun {
+  opacity: 0;
+}
+#dark:checked + .moon {
+  transition: all 2s;
+  transform: translateX(25px);
+}
+#dark:checked + .moon {
+  opacity: 0;
+}
+#dark:checked + .moon + .sun {
+  transition: all 2s;
+  transform: translate(-25px);
+}
