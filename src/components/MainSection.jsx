@@ -1,8 +1,11 @@
 import { Link } from "react-router-dom";
+import { MainContext , useContext } from "./Context";
 
 
 
 const MainSection = () => {
+  const {i18n , t} = useContext(MainContext);
+  console.log(i18n);
   return (
     <div className="pc:w-full pc:h-[200px] pc:flex justify-between  rounded-lg p-3 mt-4">
       <div>
@@ -10,8 +13,7 @@ const MainSection = () => {
           Merhaba !
         </h1 >
         <p className="pc:text-justify pc:w-64 pc:overflow-hidden leading-[18px]">
-          Ben Emrullah . 2022 aralık ayında bir heves olarak başladığım yazılıma şuan Front end Developer olma yolunda ilerliyorum .
-          benimle ilgili daha fazla şey öğrenmek isterseniz <Link className="text-red-500" to="/About">About Me</Link> tıklayablirsiniz
+          {t('Ben Emrullah . 2022 aralık ayında bir heves olarak başladığım yazılıma şuan Front end Developer olma yolunda ilerliyorum .')}
         </p>
       </div>
       <div className="border-2 border-fuchsia-950 pc:w-72 pc:h-60 flex text-center items-center justify-center
