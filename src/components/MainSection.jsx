@@ -7,7 +7,7 @@ const MainSection = () => {
   const {i18n , t} = useContext(MainContext);
   console.log(i18n);
   return (
-    <div className="pc:w-full pc:h-[200px] pc:flex justify-between  rounded-lg p-3 mt-4">
+    <div className="pc:w-full pc:h-4/5 pc:flex justify-between  rounded-lg p-3 mt-4">
       <div>
         <h1 className="text-center pc:my-5 pc:text-5xl pc:mb-10 pc:mt-[-20px] text-violet-800">
           Merhaba !
