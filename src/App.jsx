@@ -6,7 +6,7 @@ import BackPage from "./components/BackPage";
 import { useState , } from "react";
 import { useTranslation } from "react-i18next";
 import { MainContext } from "./components/Context";
-import LangButtons from "./components/langButtons";
+import LangButtons from "./components/LangButtons";
 import DarkLightButtons from "./components/darkLightButtons";
 
 const App = () => {
