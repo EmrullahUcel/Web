@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 import { MainContext , useContext } from "./Context";
 
 const Header = () => {
-  const {i18n , t} = useContext(MainContext);
+  const { t} = useContext(MainContext);
   
   return (
     <nav className=" mt-5 pc:justify-end pc:flex">

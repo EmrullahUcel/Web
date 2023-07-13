@@ -7,8 +7,8 @@ import { FaMoon } from "react-icons/fa";
 
 
 const initialState = {
-    bgColor: "white",
-    color: "black",
+    bgColor: "black",
+    color: "white",
   };
 
   const reducer = (prevState, action) => {
@@ -21,6 +21,7 @@ const initialState = {
   };
 
 const DarkLightButtons = ({colorTransfer}) => {
+  
     
     const [state, dispatch] = useReducer(reducer, initialState);
     const handleDark = (e) => {

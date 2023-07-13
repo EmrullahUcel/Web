@@ -16,10 +16,9 @@ const MainSection = () => {
           {t('Ben Emrullah . 2022 aralık ayında bir heves olarak başladığım yazılıma şuan Front end Developer olma yolunda ilerliyorum .')}
         </p>
       </div>
-      <div className="border-2 border-fuchsia-950 pc:w-72 pc:h-60 flex text-center items-center justify-center
-      phone:h-40">
-        Burada bir resim var
-      </div>
+      
+        <img className="pc:w-72 pc:h-60 " src="/src/components/images/helloWorld_img.jpg" alt="" />
+     
     </div>
   )
 }

@@ -20,8 +20,8 @@ const App = () => {
   //change lang end
 
 
-  const colorTransfer = (initialState ) => {
-    setTransfer(initialState);
+  const colorTransfer = (state ) => {
+    setTransfer(state);
     console.log(transfer.bgColor);
   };
 
